@@ -27,7 +27,7 @@ public class Program {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
-		double areaX = x.area();
+		double areaX = x.area(); 
 		double areaY = y.area();
 		
 		System.out.printf("Triangle X area: %.4f%n", areaX);
