@@ -25,12 +25,12 @@ public class Program {
 		String name = sc.nextLine();
 		System.out.print("Email: ");
 		String email = sc.nextLine();
-		System.out.print("Birth dtae (DD/MM/YYYY): ");
+		System.out.print("Birth date (DD/MM/YYYY): ");
 		Date birthDate = sdf.parse(sc.next());
 		
 		Client client = new Client(name, email, birthDate);
 		
-		System.out.println("Enter order data: ");
+		System.out.println( "Enter order data: ");
 		System.out.print("Status: ");
 		OrderStatus status = OrderStatus.valueOf(sc.next());
 		
